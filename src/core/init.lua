@@ -35,9 +35,9 @@ local F, C = engine[1], engine[2]
 
 do
     -- when packager packages a new version for release
-    -- '@project-version@' is replaced with the version number
+    -- '10.2.12' is replaced with the version number
     -- which is the latest tag
-    engine.version = '@project-version@'
+    engine.version = '10.2.15 by Hxcktivist'
 
     if strfind(engine.version, 'project%-version') then
         engine.version = 'development'
